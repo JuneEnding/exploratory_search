@@ -1,0 +1,60 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+.env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Конфигурации IDE
+.vscode/
+.idea/
+
+# Логи и дампы
+*.log
+*.out
+*.bak
+*.tmp
+*.swp
+
+# Файлы данных
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.db
+*.sqlite
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Файлы модели
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Артефакты Jupyter
+*.~ipynb
+profile_default/
+*.autosave.ipynb
+
+# Секреты
+.env.*
+*.key
+*.pem
+
+# PyCharm
+*.iml
+*.ipr
+*.iws
